@@ -13,6 +13,11 @@
 # Imports
 
 # Body
+def sumall(*args):
+	result = 0
+	for indx, item in enumerate(args):
+		result += item
+	return result
 
 
 ##############################################################################
